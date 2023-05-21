@@ -6,14 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     name: An example job to comment a PR
     steps:
-      - name: Checkout
+      - name: i dont know
         uses: actions/checkout@v3
 
-      - name: Comment
+      - name: mahatv sharma good video
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: |
-            please watch this very important video
-            https://www.youtube.com/watch?v=xDCQgmSbiHo
+          message: useful important trick regarding git hub 
+          https://www.youtube.com/shorts/3tTxr9JiWnI
+          
+          
 
         
